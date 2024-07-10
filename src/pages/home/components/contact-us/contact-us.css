@@ -1,0 +1,146 @@
+.contact-container {
+  max-width: 920px;
+  width: 90%; /* Adjusted for responsiveness */
+  margin-top: 25rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 1rem;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+  background: #2185dd;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.contact-header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.contact-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Space between icons */
+  margin-bottom: 1rem;
+}
+
+.icon-list .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2196f3;
+  transition: color 0.3s;
+}
+
+.icon-list .link:hover {
+  color: #ff9e3d;
+}
+
+.icon-list .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #2196f3;
+  border-radius: 50%;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.icon-list .link:hover .circle {
+  background: #ff9e3d;
+}
+
+.icon-list .circle .icon {
+  font-size: 18px;
+}
+
+.icon-list .link span {
+  margin-left: 0.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a#form {
+  color: #ff9e3d;
+  padding: 5px;
+  transition: color 0.2s;
+}
+
+a#form:hover {
+  color: #2185dd;
+}
+
+@media (max-width: 1100px) {
+  .contact-header h1 {
+    font-size: 20px;
+  }
+
+  .icon-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-container {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+@media (max-width: 900px) {
+  .contact-header h1 {
+    font-size: 20px;
+  }
+
+  .icon-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+@media (max-width: 760px) {
+  .contact-header h1 {
+    font-size: 20px;
+  }
+
+  .icon-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
